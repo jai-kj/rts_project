@@ -1,0 +1,138 @@
+body{
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    margin:0%;
+    padding: 0%;
+}
+
+div .row{
+    margin: auto;
+}
+
+.col-lg-12{
+    margin:5px 0px;
+}
+
+#tickets{
+    background-image: url('../images/ticket.jpg');
+    background-size: cover;
+	background-position: center;
+    margin: 40px 0px;
+    font-size: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    perspective: 1px;
+    border: 1px solid rgb(211, 206, 206);
+
+}
+
+#ticketStyle{
+    background-color: #191a1e;
+    padding: 5px 0px;
+    color: white;
+}
+
+#tableStyle{
+    background-color: rgb(238, 236, 236,0.5);
+    color: black;
+}
+
+#ticketTable{
+	table-layout: fixed;    
+    width: 100%;
+}
+
+#bookContainer {
+	background: rgba(0, 0, 0, 0.8);
+	padding: 40px;
+    border-radius: 6px;
+    color: white;
+}
+
+#bookContainer .form-group {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+#bookContainer .form-control{
+    background-color: #fff;
+	height: 30px;
+	color: #191a1e;
+	border: none;
+	font-size: 16px;
+	font-weight: 400;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border-radius: 40px;
+	padding: 0px 25px;
+}
+
+#ticketDetail{
+	margin: 0px 0px 15px 0px;
+	box-sizing: border-box;
+	background: rgba(0, 0, 0, 0.8);
+	border-radius: 6px;
+	display: inline-block;
+	padding: 20px;
+	color: #ffffff;
+}
+
+.form-control {
+	background-color: white;
+	height: 30px;
+	border: 1px solid rgb(161, 161, 161);
+	font-size: 16px;
+	font-weight: 400;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border-radius: 40px;
+	padding: 0px 25px;
+	margin: 10px auto;
+	width:auto;
+	
+    text-align: center;
+}
+
+.form-btn {
+	margin-top: 27px;
+} 
+.form-control::-webkit-input-placeholder {
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.form-control:-ms-input-placeholder {
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.form-control::placeholder {
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.submit-btn {
+	color: #fff;
+	font-weight: 400;
+	height: 30px;
+	font-size: 14px;
+	border: none;
+	width: 49%;
+	border-radius: 40px;
+	margin-top: 10px;
+	-webkit-transition: 0.2s all;
+	transition: 0.2s all;
+}
+
+@media screen and (max-width: 480px){
+	body{
+		text-align: unset;
+	}
+	#tickets{
+		text-align: center;
+		font-size: 15px;
+	}
+	#ticketDetail{
+		text-align: center;
+	}
+	.submit-btn{
+		width: 60%;
+	}
+}
